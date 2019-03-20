@@ -1,0 +1,78 @@
+*{
+	margin:0;
+}
+.route{
+	position: relative;
+	border:1px green solid;
+
+}
+
+.cls-1{
+	stroke-width:3;
+	stroke: red;
+	fill:none;
+}
+
+
+.dotted-path{
+	stroke: red;
+	stroke-dasharray:5;
+	fill:none;
+}
+
+.ship{
+	width: 0;
+	height: 0;
+	top:0;
+	left:0;
+	position: absolute;
+	border:1px teal solid;
+}
+
+.ship>div{
+	width: 2em;
+	height: 2em;
+	background-color:teal;
+	border-radius: 0.25em;
+	position: absolute;
+	transform: translate(-50%,-50%);
+
+}
+
+.port{
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	border-radius: 50%;
+	background-color: coral;
+}
+
+.port1{
+	top:9px;
+	left:280px;
+}
+.port2{
+	top:150px;
+	left:250px;
+}
+
+.port3{
+	top:350px;
+	left:100px;
+}
+.port4{
+	top:450px;
+	left:130px;
+}
+.port5{
+	top:700px;
+	left:105px;
+}
+.port6{
+	top:375px;
+	left:25px;
+}
+.port7{
+	top:75px;
+	left:75px;
+}
